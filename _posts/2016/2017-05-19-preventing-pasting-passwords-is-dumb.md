@@ -1,6 +1,6 @@
 ---
 layout: post
-category: link
+category: opinion
 date: 19-05-2017 22:03:32
 title: "Let them paste passwords"
 excerpt: "Why preventing pasting passwords is dumb"
