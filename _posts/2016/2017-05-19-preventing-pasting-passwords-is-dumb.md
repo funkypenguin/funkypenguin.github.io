@@ -2,7 +2,7 @@
 layout: post
 category: link
 date: 19-05-2017 22:03:32
-title: "Let them paste passwords - NCSC Site"
+title: "Let them paste passwords"
 excerpt: "Why preventing pasting passwords is dumb"
 tags: "password"
 link: "https://www.ncsc.gov.uk/blog-post/let-them-paste-passwords"
