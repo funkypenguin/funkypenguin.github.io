@@ -1,26 +1,21 @@
 ---
 layout: page
-title: About the Jekyll Theme
-excerpt: "So Simple is a responsive Jekyll theme for your words and images."
-modified: 2014-08-08T19:44:38.564948-04:00
-image:
-  feature: so-simple-sample-image-4.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+title: "About"
+permalink: "/about/"
 ---
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the follow up to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes.com).
+Hi, I'm [David](/contact). When I was a kid, I wanted to to grow up to be an inventor. In many ways I have. I've spent 20+ years working with IT, and I'm specifically interested in networking, systems, open-source, and technical documentation. My current role is __Senior Infrastructure Architect_ at [Prophecy Networks](http://www.prophecy.net.nz) in New Zealand.
 
-## So Simple Theme is all about:
+## Why "Funky Penguin"?
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Optional large feature images for posts and pages.
-* [Custom 404 page]({{ site.url }}/404.html) to get you started.
-* [Simple site search](https://github.com/christian-fei/Simple-Jekyll-Search)
-* Support for Disqus Comments
+My first "real" job, out of high-school, was working the IT helpdesk in a typical pre-2000 organization in South Africa. I enjoyed experimenting with Linux, and cut my teeth by replacing the organization's Exchange 5.5 mail platform with a 15-site [qmail-ldap](http://www.nrg4u.com/) cluster, with [amavis](https://en.wikipedia.org/wiki/Amavis) virus-scanning.
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install So Simple Theme</a>
+One of our suppliers asked me to quote to do the same for their organization. With nothing to loose, and half-expecting to be turned down, I quoted a generous fee, and chose a cheeky company name. The supplier immediately accepted my quote, and the name (__Funky Penguin__) stuck.
 
-[^1]: Example: *domain.com/category-name/post-title*
+## Technical Documentation
+
+During the same "real" job above, I wanted to deploy [jabberd](https://en.wikipedia.org/wiki/Jabberd14), for internal instant messaging within the organization, and as a means to control the sprawl of ad-hoc instant-messaging among staff, using ICQ, MSN, and Yahoo Messenger.
+
+To get management approval to deploy, I wrote a logger (with web UI) for jabber conversations ([Bandersnatch](/project/bandersnatch/)), and a 75-page user manual (in [Docbook XML](http://www.docbook.org/) for a spunky Russian WinXP jabber client, [JAJC](http://jajc.jrudevels.org/).
+
+Due to my contributions to [phpList](http://www.phplist.com), I was approached in 2011 by [Packt Publishing](http://www.packtpub.com), to [write a book](/book/phplist-2-email-campaign-manager) about using PHPList.

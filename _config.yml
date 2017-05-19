@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title: Site Title
+title: Funky Penguin
 locale: en_US
-description: Describe your website here.
+description: Upgrading the world through the skilled application of technology
 logo: site-logo.png
 search: true
-url: http://localhost:4000
+url: https://www.funkypenguin.co.nz
 
 # Jekyll configuration
 
@@ -36,15 +36,15 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
+  name: David Young
   avatar: bio-photo.jpg
-  email: you@email.com
+  email: davidy@funkypenguin.co.nz
   disqus-shortname:
-  twitter: #username
+  twitter: funkypenguin
   facebook: #username
-  github: #username
+  github: funkypenguin
   stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  linkedin: funkypenguin
   instagram: #username
   flickr: #username
   tumblr: #username
@@ -57,3 +57,9 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
+
+# Yes, I want comments on every page:
+comments: true
+
+# Yes, I want social sharing on every page:
+share: true
