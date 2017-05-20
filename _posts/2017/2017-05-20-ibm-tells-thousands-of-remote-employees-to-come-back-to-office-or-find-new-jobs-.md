@@ -13,4 +13,4 @@ Sad to see IBM reversing their position on the remote work thing (it didn't save
 
 >Earlier this month, [IBM touted research from IBM's Smarter Workforce Institute](https://www.ibm.com/blogs/smarter-workforce/2017/05/making-telework-work-insights-siop-2017/) that found "remote workers... were highly engaged, more likely to consider their workplaces as innovative, happier about their job prospects and less stressed than their more traditional, office-bound colleagues."
 
->But even as IBM was selling the magic of remote workforces to its customers, the company was dismantling its own "telework" program.  <cite>[IBM tells thousands of remote employees to come back to office or find new jobs ](https://arstechnica.com/information-technology/2017/05/ibm-to-remote-workers-come-back-to-the-mothership-or-else/)</cite>
+>But even as IBM was selling the magic of remote workforces to its customers, the company was dismantling its own "telework" program.  <cite>[- IBM tells thousands of remote employees to come back to office or find new jobs ](https://arstechnica.com/information-technology/2017/05/ibm-to-remote-workers-come-back-to-the-mothership-or-else/)</cite>
