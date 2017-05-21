@@ -44,7 +44,7 @@ owner:
   name: David Young
   avatar: bio-photo.jpg
   email: davidy@funkypenguin.co.nz
-  disqus-shortname: 
+  disqus-shortname: funkypenguinnz
   twitter: funkypenguin
   facebook: #username
   github: funkypenguin
@@ -62,9 +62,6 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-
-# Yes, I want comments on every page:
-comments: true
 
 # Yes, I want social sharing on every page:
 share: true
