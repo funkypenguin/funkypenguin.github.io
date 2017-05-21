@@ -44,7 +44,7 @@ owner:
   name: David Young
   avatar: bio-photo.jpg
   email: davidy@funkypenguin.co.nz
-  disqus-shortname:
+  disqus-shortname: funkypenguinnz
   twitter: funkypenguin
   facebook: #username
   github: funkypenguin
@@ -57,7 +57,7 @@ owner:
   weibo: #userid
   google:
     plus: #username
-    analytics:
+    analytics: UA-139253-8
     verify:
     ad-client:
     ad-slot:
