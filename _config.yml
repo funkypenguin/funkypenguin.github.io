@@ -19,6 +19,11 @@ gems:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-paginate
+  - jemoji
+
+paginate: 7
+paginate_path: "/blog/page:num/"
 
 kramdown:
   input: GFM

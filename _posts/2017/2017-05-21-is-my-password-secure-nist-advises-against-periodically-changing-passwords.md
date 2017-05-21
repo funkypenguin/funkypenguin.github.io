@@ -7,7 +7,7 @@ excerpt: "Enforcing password aging encourages poor security practices"
 tags: "security"
 link: "http://www.ibtimes.com/my-password-secure-nist-advises-against-periodically-changing-passwords-2541293"
 ---
-At [Prophecy](http://www.prophecy.net.nz), we encourage [complex and unique](http://www.1password.com) passwords, rather than arbitrary password aging policies. 
+At [Prophecy](http://www.prophecy.net.nz), we encourage [complex and unique](http://www.1password.com) passwords, rather than arbitrary password aging policies. :+1:!
 
 We've seen the bad habits these policies create, like the post-it note stuck to the desktop screen with the latest iteration of "passwordmay2017"
 
