@@ -1,0 +1,19 @@
+---
+title: "Bookmarks of note / July 01, 2017"
+layout: post
+categories:
+- bookmarks
+comments: false
+---
+The following are interesting links I've stumbled across recently:
+
+:bookmark: [Not-da-Mama. In Jurassic park.](https://mobile.twitter.com/thisjenlewis/status/879910932859768833)
+&#8594; Jurassic Park, with TV's dinosaurs. I loved that show :)
+
+:bookmark: [The Wall Street Journal’s Mini-Documentary on the iPhone](https://www.macstories.net/linked/the-wall-street-journals-mini-documentary-on-the-creation-of-the-iphone/)
+&#8594; Bound to be an interesting watch.
+
+:bookmark: [Migrating your Jekyll site to Netlify | Netlify](https://www.netlify.com/blog/2017/05/11/migrating-your-jekyll-site-to-netlify/)
+&#8594; I'm always looking for ways to improve my blogging workflow. This is worth a look at.
+
+Bookmarks are generated from my [pinboard](https://pinboard.in) account, you can see them all tagged as #[bon](https://pinboard.in/u:funkypenguin/t:bon/)
