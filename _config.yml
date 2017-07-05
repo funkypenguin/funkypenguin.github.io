@@ -28,6 +28,13 @@ gems:
 paginate: 7
 paginate_path: "/blog/page:num/"
 
+# Add me some recipies
+collections:
+  recipies:
+    output: true
+    permalink: /:collection/:name/
+    title: FAQs
+
 kramdown:
   input: GFM
   auto_ids: true

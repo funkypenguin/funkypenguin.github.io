@@ -1,0 +1,25 @@
+---
+layout: page
+title: Recipies
+search_omit: true
+---
+
+
+<ul class="post-list">
+{% for recipe in site.recipies %}
+  <li><article><a href="{{ site.url }}{{ recipe.url }}">{{ recipe.title }}{% if recipe.link %} &rarr;{% endif %}</strong><span class="entry-date"><time datetime="{{ recipe.date | date_to_xmlschema }}">{{ recipe.date | date: "%B %d, %Y" }}</time></span>{% if recipe.excerpt %} <span class="excerpt">{{ recipe.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
+{% endfor %}
+</ul>
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous"><</a>
+  {% endif %}
+  <span class="page_number ">[ {{ paginator.page }} / {{ paginator.total_pages }} ]</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">></a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>
