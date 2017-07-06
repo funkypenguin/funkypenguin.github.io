@@ -1,0 +1,11 @@
+---
+title: "Bookmarks of note / July 05, 2017"
+layout: post
+categories:
+- bookmarks
+comments: false
+---
+:bookmark: [MySQL skip duplicate replication errors - MDLog:/sysadmin](http://www.ducea.com/2008/02/13/mysql-skip-duplicate-replication-errors/)
+&#8594; This came in handy today, to eliminate the pain caused by an application updating both the master _and_ the replicated slave database. Fixing these is normally a huge PITA involving table-level locking on the production database. No longer!
+
+Bookmarks are automatically generated from my [pinboard](https://pinboard.in) account, you can see them all tagged as #[bon](https://pinboard.in/u:funkypenguin/t:bon/)

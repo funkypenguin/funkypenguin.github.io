@@ -5,15 +5,13 @@ categories:
 - bookmarks
 comments: false
 ---
-The following are interesting links I've stumbled across recently:
+:bookmark: [The SR-71 speed check story - SR71](https://www.reddit.com/r/SR71/comments/2dpmw7/the_sr71_speed_check_story/)
+&#8594; A positive story, even better since it's true. I bet the book (mentioned in the comments) would be really interesting
 
-:bookmark: [Not that scary or that hard: Two decades of VLANS • The Register](https://www.theregister.co.uk/2017/06/30/vlans_at_20/)
-&#8594; This should be required reading for any IT engineer.
+:bookmark: [How to Obfuscate - Issue 49: The Absurd - Nautilus](http://nautil.us/issue/49/the-absurd/how-to-obfuscate)
+&#8594; Interesting, specifically the modern-day implementation re defending from ad-tracking and profiling
 
-:bookmark: [Shock: NASA denies secret child sex slave cannibal colony on Mars • The Register](https://www.theregister.co.uk/2017/06/30/nasa_denies_child_colony_on_mars/)
-&#8594; Seriously. Some of the inhabitants of _this_ planet are a galactic embarrassment.
+:bookmark: [The case of the 500-mile email](https://www.ibiblio.org/harris/500milemail.html)
+&#8594; A classic case
 
-:bookmark: [Quick tip on writing git commit messages](https://mastodon.herebedragons.io/users/jan/updates/801)
-&#8594; A helpful way to structure your commit messages to keep them consistent and useful
-
-Bookmarks are generated from my [pinboard](https://pinboard.in) account, you can see them all tagged as #[bon](https://pinboard.in/u:funkypenguin/t:bon/)
+Bookmarks are automatically generated from my [pinboard](https://pinboard.in) account, you can see them all tagged as #[bon](https://pinboard.in/u:funkypenguin/t:bon/)
