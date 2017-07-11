@@ -1,0 +1,14 @@
+---
+title: "Bookmarks of note / July 11, 2017"
+layout: post
+categories:
+- bookmarks
+comments: false
+---
+:bookmark: [Two-factor authentication is a mess - The Verge](https://www.theverge.com/2017/7/10/15946642/two-factor-authentication-online-security-mess)
+&#8594; Illustrating how usability is a critical component in "security"
+
+:bookmark: [The .io Error - Taking Control of All .io Domains With a Targeted Registration](https://thehackerblog.com/the-io-error-taking-control-of-all-io-domains-with-a-targeted-registration/)
+&#8594; A scary reminder of how fragile and vulnerable to mismanagement our DNS infrastructure is.
+
+Bookmarks are automatically generated from my [pinboard](https://pinboard.in) account, you can see them all tagged as #[bon](https://pinboard.in/u:funkypenguin/t:bon/)
