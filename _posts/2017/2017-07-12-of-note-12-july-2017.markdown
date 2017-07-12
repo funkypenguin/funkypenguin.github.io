@@ -1,0 +1,11 @@
+---
+title: "Bookmarks of note / July 12, 2017"
+layout: post
+categories:
+- bookmarks
+comments: false
+---
+:bookmark: [OS X Screencast to animated GIF](https://gist.github.com/dergachev/4627207)
+&#8594; 
+
+Bookmarks are automatically generated from my [pinboard](https://pinboard.in) account, you can see them all tagged as #[bon](https://pinboard.in/u:funkypenguin/t:bon/)
