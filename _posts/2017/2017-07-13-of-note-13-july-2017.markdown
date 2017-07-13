@@ -1,0 +1,11 @@
+---
+title: "Bookmarks of note / July 13, 2017"
+layout: post
+categories:
+- bookmarks
+comments: false
+---
+:bookmark: [Convos - IRC web client with persistent connection, logging and inline media previews](https://www.reddit.com/r/selfhosted/comments/6mo4hc/convos_irc_web_client_with_persistent_connection/)
+&#8594; 
+
+Bookmarks are automatically generated from my [pinboard](https://pinboard.in) account, you can see them all tagged as #[bon](https://pinboard.in/u:funkypenguin/t:bon/)
