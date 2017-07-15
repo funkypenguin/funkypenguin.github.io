@@ -1,0 +1,11 @@
+---
+title: "Bookmarks of note / July 15, 2017"
+layout: post
+categories:
+- bookmarks
+comments: false
+---
+:bookmark: [OpenStack: Quick and automatic instance snapshot backup and restore (and before an apt upgrade) with nova backup - Raymii.org](https://raymii.org/s/tutorials/OpenStack_Quick_and_automatic_instance_snapshot_backups.html)
+&#8594; 
+
+Bookmarks are automatically generated from my [pinboard](https://pinboard.in) account, you can see them all tagged as #[bon](https://pinboard.in/u:funkypenguin/t:bon/)
