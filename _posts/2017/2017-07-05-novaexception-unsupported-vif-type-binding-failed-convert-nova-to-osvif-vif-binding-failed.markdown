@@ -6,7 +6,7 @@ date: "2017-07-05 19:39"
 category: note
 tag: openstack
 ---
-I was showing off my OpenStack dev cluster to a co-worker, and spouting off about how easy and user-proof live-migration is. I challenged him to try it, and he subsequently **broke my OpenStack**, by trying to live-migrate instances to a compute node targets whose FQDN doesn't exist (_using client CLI commands_). Apparently this makes nova sit in a permanent "migration" state (see bug #[1643623](https://bugs.launchpad.net/nova/+bug/1643623).
+I was showing off my OpenStack dev cluster to a co-worker, and spouting off about how easy and user-proof live-migration is. I challenged him to try it, and he subsequently **broke my OpenStack**, by trying to live-migrate instances to a compute node targets whose FQDN doesn't exist (_using client CLI commands_). Apparently this makes nova sit in a permanent "migration" state (see bug #[1643623](https://bugs.launchpad.net/nova/+bug/1643623)).
 
 Then, in trying to help solve this embarrassing problem, I reset one of my two controllers (in HA, of course, what could go wrong?). Immediately rabbitmq died on the **other** (non-rebooted) controller. (Insert **second** bug report ___here___).
 
