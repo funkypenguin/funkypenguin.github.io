@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "Getting started visualizing IOT data with Grafana"
-date: "2017-08-08 16:21"
+date: "2017-08-07 16:21"
 category: note
 excerpt: Getting started with Grafana
 ---
