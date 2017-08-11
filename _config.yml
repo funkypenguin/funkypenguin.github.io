@@ -24,6 +24,7 @@ gems:
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-mentions
+  - jekyll-crosspost-to-medium
 
 paginate: 7
 paginate_path: "/blog/page:num/"
