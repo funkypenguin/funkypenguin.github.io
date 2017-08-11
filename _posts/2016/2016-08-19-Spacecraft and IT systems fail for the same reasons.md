@@ -5,6 +5,7 @@ date: 2016-08-19 12:40:50
 title: "Spacecraft and IT systems fail for the same reasons"
 excerpt: "Surprisingly common factors affect the failure of both"
 tags: failure, bias
+crosspost_to_medium: true
 ---
 
 In [SOHO MISSION INTERRUPTION FAILURE INVESTIGATION](http://umbra.nascom.nasa.gov/soho/SOHO_final_report.html), I read the fascinating postmortem of the near-loss of the SOHO observatory due to what can only be described as basic operational process fails. (The craft was later [spectacularly recovered](http://soho.nascom.nasa.gov/about/Recovery/))
@@ -38,7 +39,7 @@ In summary, human error compounded on human error, and resulting poor judgement 
 
 > A rapid decision was made that Gyro B was faulty because its output disagreed with the rate indicated by Gyro A. This decision led to the commanding off of Gyro B.
 
-My takeaway here is that the decision was ___rapid___ - a knee-jerk response without careful examination and evaluation. As we'll note later, the information on the state of Gyro A was available, but was "too hard to interpret" or was not evaluated carefully, due to assumption bias (the cause of the discrepancy was believed to be known, so alternative possibilities were not tested). 
+My takeaway here is that the decision was ___rapid___ - a knee-jerk response without careful examination and evaluation. As we'll note later, the information on the state of Gyro A was available, but was "too hard to interpret" or was not evaluated carefully, due to assumption bias (the cause of the discrepancy was believed to be known, so alternative possibilities were not tested).
 
 A correlation to IT from [Prophecy](http://www.prophecy.net.nz)'s experience is that when a virtual machine exhibits symptoms associated with under-resourcing (sluggish response, high CPU load), simply adding more resource can either create [further problems](http://www.gabesvirtualworld.com/how-too-many-vcpus-can-negatively-affect-your-performance/), or simply mask an underlying root cause (like an actual software fault).
 
@@ -93,7 +94,7 @@ Inadequate monitoring or monitoring wasn't trusted (due to noise?).
 ## Established processes were not followed
 
 > The operations script specifically states that the Gyro A is to be spinning upon entry into safe mode and instructs the operator to evaluate the three telemetry frames that had been stored prior to the anomaly before proceeding toward recovery.
-> 
+>
 > Neither the confirmation of Gyro A state nor the evaluation of the three previous telemetry frames was performed. These omissions resulted in a failure to notice that Gyro A was not spinning - a state which rendered the safe mode unstable.
 
 Failure to follow documented procedure, possibly due to carelessness or casual familiarity with the routine.

@@ -5,6 +5,7 @@ date: 2016-07-09 22:59:29
 title: "Buy experiences, not gadgets"
 excerpt: Your loot won't make you happy, long-term
 tags: happiness
+crosspost_to_medium: true
 ---
 
 In [The Science Of Why You Should Spend Your Money On Experiences, Not Things](http://www.fastcoexist.com/3043858/world-changing-ideas/the-science-of-why-you-should-spend-your-money-on-experiences-not-thing), I read:

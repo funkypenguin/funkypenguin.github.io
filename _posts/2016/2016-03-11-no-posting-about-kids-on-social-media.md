@@ -5,6 +5,7 @@ categories: opinion
 tags:
   - socialmedia
 excerpt: Kids don't appreciate your tweets
+crosspost_to_medium: true
 ---
 I read the following on the NYTimes today, and it ring true to my own concerns about how we expose our children's digital history to the end of time, without considering the harm we may be doing..
 

@@ -3,6 +3,7 @@ layout: post
 title: Book Review - Reclaiming Conversation - Family Development
 date: '2016-02-10 21:47'
 category: opinion
+crosspost_to_medium: true
 ---
 
 I recently completed reading [Reclaiming Conversation: The Power of Talk in a Digital Age](http://www.amazon.com/dp/B00SI0B6PC/ref=r_soa_w_d), by Sherry Turkle. Sherry's position is that the classic, face-to-face **conversation** is critical to our personal development and communication, but we are dangerously close to abandoning conversation for the lure of digital efficiency and control.

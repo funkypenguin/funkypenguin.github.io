@@ -4,6 +4,7 @@ title: "LVM-backed devicemapper for Docker on CentOS 7.3"
 date: "2017-05-24 21:51"
 excerpt: Changing from overlay to devicemapper
 tags: docker
+crosspost_to_medium: true
 ---
 I've been running Docker on CentOS 7 in my "home lab" for several years, but haven't really changed any default settings. It's worked well enough, and my goal has always been to keep my applications and config separate from the OS installation, making it easy to reinstall / upgrade the docker host.
 

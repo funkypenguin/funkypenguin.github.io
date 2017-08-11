@@ -5,6 +5,7 @@ date: 2016-08-10 21:00:24
 title: "How instant messaging makes my life miserable"
 excerpt: "The pros and cons of always-on instant messaging"
 tags: im, culture
+crosspost_to_medium: true
 ---
 
 I recently read [Is group chat making you sweat? — Signal v Noise](https://m.signalvnoise.com/is-group-chat-making-you-sweat-744659addf7d#.ivqcxcx8a), and it resonated with me so much that I re-read it specifically so that I could post and comment on the relevant sections.
@@ -20,14 +21,14 @@ Comments and highlights below:
 
 > We’ve also seen strong evidence that the method and manner in which you choose to communicate has a major influence on how people feel at work. Frazzled, exhausted, and anxious? Or calm, cool, and collected? These aren’t just states of mind, they are conditions caused by the kinds of tools we use, and the kinds of behaviors those tools encourage.
 
-I can personally certainly attest to the anxiety and fragmentation caused by the ever-present possibility that I'll be interrupted at work at any moment by IM or phone. 
+I can personally certainly attest to the anxiety and fragmentation caused by the ever-present possibility that I'll be interrupted at work at any moment by IM or phone.
 
 Talking on the phone (even hands free) while driving is [more dangerous than talking to a passenger](http://well.blogs.nytimes.com/2008/12/01/chatty-driving-phones-vs-passengers/?_r=0) while driving. A passenger can sense the context - they can see the road, your body language, and can pause the conversation or even direct your attention to a danger. Likewise,  a colleague in the same room as you is aware of your distraction, or can see that you're taking a phone call. Someone on the remote end of an IM window has no idea of how busy, distracted or stressed you are, and so likely their message brings more stress and distraction.
 
 ## What IM is good for
 
 > Group chat is great for…
-> 
+>
 > 1. Hashing things out quickly. When you need to toss an idea back and forth between a few people, there’s nothing better than chat. Toss in some words, drag in a picture, get some quick feedback, and move on (just get out quick before you get sucked back in).
 
 Actually, in my experience, not at all. It's much faster to "hash things out" on the phone or a video call than it is to take turns typing into a text interface. And the results are of a much higher quality.

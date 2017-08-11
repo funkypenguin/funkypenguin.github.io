@@ -5,6 +5,7 @@ excerpt: Or how to catastrophically break (and recover) your nova compute node w
 date: "2017-07-05 19:39"
 category: note
 tag: openstack
+crosspost_to_medium: true
 ---
 I was showing off my OpenStack dev cluster to a co-worker, and spouting off about how easy and user-proof live-migration is. I challenged him to try it, and he subsequently **broke my OpenStack**, by trying to live-migrate instances to a compute node targets whose FQDN doesn't exist (_using client CLI commands_). Apparently this makes nova sit in a permanent "migration" state (see bug #[1643623](https://bugs.launchpad.net/nova/+bug/1643623)).
 

@@ -2,9 +2,10 @@
 layout: post
 category: postmortem
 date: 2016-08-27 08:06:43
-title: Manual processes fail to scale. 
+title: Manual processes fail to scale.
 excerpt: Puny humans are puny.
 tags: human, scaling
+crosspost_to_medium: true
 ---
 In [Linode Blog » The Twelve Days of Crisis – A Retrospective on Linode’s Holiday DDoS Attacks](https://blog.linode.com/2016/01/29/christmas-ddos-retrospective/), I read about the scale of a DDOS attack on Linnode infrastructure:
 
@@ -25,7 +26,7 @@ Test and baseline when the sun shines, so that when it rains, you're comfortable
 Define standard capacity management / growth policies so that ever-expanding capacity requirements are dealt with as a low-effort, low-friction business process. This avoids getting caught under-capacity due to manual effort required.
 
 > It’s important that we acknowledge when we fail, and our lack of detailed communication during the early days of the attack was a big failure.
-> 
+>
 > Providing detailed technical updates during a time of crisis can only be done by those with detailed knowledge of the current state of affairs. Usually, those people are also the ones who are firefighting. After things settled down and we reviewed our public communications, we came to the conclusion that our fear of wording something poorly and causing undue panic led us to speak more ambiguously than we should have in our status updates. This was wrong, and going forward, a designated technical point-person will be responsible for communicating in detail during major events like this. Additionally, our status page now allows customers to be alerted about service issues by email and SMS text messaging via the “Subscribe to Updates” link.
 
 This is an excellent improvement to the standard "we have an outage, will keep you informed" process followed in general. Within [Prophecy](http://www.prophecy.net.nz) our internal incident management process normally calls for the operations center staff to manage customer communications, because (as noted) the technical resources are busy firefighting. In our case, customers expect us to abstract the technical details from them (we provide full-range IT services). However, we might benefit from a semi-automated system with some standard boilerplate details that ops could refer our clients to, and which wouldn't take the technical resources long to initiate. Maybe a checklist-based form for technical resources to quickly identify affected systems, expected restore time, and escalation processes, to further empower staff who are dealing with multiple disgruntled customers.

@@ -5,6 +5,7 @@ date: 2016-08-03 20:18:55
 title: "Speak to the face"
 excerpt: How human connection improves company culture
 tags: management
+crosspost_to_medium: true
 ---
 
 In [How Regular One-on-One Meetings Saved Our Company Culture](https://www.groovehq.com/blog/one-on-one-meetings-for-company-culture), Alex Turnbull highlights the value of regular, one-on-one meetings between management (in his case, CEO) and employees. A few comments / highlights below:
