@@ -7,6 +7,9 @@ logo: site-logo.png
 search: true
 url: https://www.funkypenguin.co.nz
 
+# No reason not to publish future-dated posts.
+future: true
+
 # Jekyll configuration
 
 permalink:   /:categories/:title/
