@@ -10,3 +10,7 @@ gem "jekyll-seo-tag"
 gem "jekyll-redirect-from"
 gem "jekyll-mentions"
 gem "jekyll-crosspost-to-medium"
+
+group :jekyll_plugins do
+  gem 'hawkins'
+end

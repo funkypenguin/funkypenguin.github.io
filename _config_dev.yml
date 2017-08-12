@@ -1,2 +1,12 @@
 url: http://localhost:4000
 comments: false
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-paginate
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-mentions
