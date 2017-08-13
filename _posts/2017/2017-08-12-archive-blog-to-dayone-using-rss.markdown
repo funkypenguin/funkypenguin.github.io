@@ -5,6 +5,7 @@ date: "2017-08-12 23:29"
 excerpt: "Create DayOne journal entry for every new item on RSS feed"
 category: note
 tags: ifttt
+crosspost_to_medium: true
 ---
 I just finished reviewing my IFTTT ~~recipies~~ applets since the introduction of the "[new IFTTT](https://ifttt.com/blog/2016/11/the-new-ifttt-is-here)". I discovered that it's now a little more involved to create and share applets than the previous "recipe" metaphor.
 
