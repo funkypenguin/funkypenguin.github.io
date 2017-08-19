@@ -12,6 +12,8 @@ While working on the [Tiny Tiny RSS recipe](https://geeks-cookbook.funkypenguin.
 
 Well, at some stage you'll care about backing up the data in your database container. You can't simply backup the data from the docker volume (bind-mounted or not), since the database is running, and the result wouldn't be a clean backup.
 
+## How does it work?
+
 I've included an excerpt from the docker-compose v3 recipe for Tiny Tiny RSS below:
 ```
 version: '3'
@@ -58,3 +60,7 @@ PGHOST=db
 BACKUP_NUM_KEEP=3
 BACKUP_FREQUENCY=1d
 ```
+
+## How would you do a restore?
+
+TBC
