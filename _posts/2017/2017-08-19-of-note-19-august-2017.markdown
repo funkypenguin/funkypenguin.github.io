@@ -1,0 +1,32 @@
+---
+title: "Bookmarks of note / August 19, 2017"
+layout: post
+categories:
+- bookmarks
+comments: false
+---
+:bookmark: [DigitalOcean vs. Linode vs. Vultr vs. OVH vs. Scaleway](https://www.webstack.de/blog/e/cloud-hosting-provider-comparison-2017/)
+&#8594; A thorough comparison of popular VPS providers
+
+:bookmark: [Can you make your brain *not* see this circle illusion?](http://www.syfy.com/syfywire/can-you-make-your-brain-not-see-this-circle-illusion)
+&#8594; An interesting dive into optical illusions and the science behind them.
+
+:bookmark: [A Dinosaur So Well Preserved It Looks Like a Statue](https://www.theatlantic.com/science/archive/2017/08/a-dinosaur-so-well-preserved-it-looks-like-a-statue/535782/?single_page=true)
+&#8594; TIL dinosaurs had protective coloring: "The fact that this massive armored dinosaur with these huge spines still had countershading tells us that it was a common meal for the predators of the time"
+
+:bookmark: [New feature in iOS 11 quickly and temporarily disables Touch ID](https://arstechnica.com/?p=1148603)
+&#8594; I hope this gets released. It's hard to prevent the bad guys from unlocking your phone when the key is attached to your wrist.
+
+:bookmark: [Apple hypes iOS 11 with new iPad Pro videos](https://www.theverge.com/2017/8/18/16166626/apple-ios-11-ipad-update-how-to-videos-multitasking)
+&#8594; 
+
+:bookmark: [How Facebook prioritizes privacy when you die](https://techcrunch.com/2017/08/18/facebook-after-death/?ncid=rss)
+&#8594; This is a feature that you hope you will never have to use, but it's good to know that it's available when you need it.
+
+:bookmark: [Cops Can Force You to Unlock Your Phone With Your Fingerprint, but Not Your Passcode](http://mashable.com/2014/10/30/cops-can-force-you-to-unlock-phone-with-fingerprint-ruling/)
+&#8594; Not if you quickly disable TouchID!
+
+:bookmark: [Consumer Reports: Microsoft Surface Is Dead Last for Reliability in Tablets and Laptops](https://www.thurrott.com/mobile/microsoft-surface/132728/consumer-reports-microsoft-surface-dead-last-reliability)
+&#8594; Also phrased as, "what's cheap is expensive"
+
+Bookmarks are automatically generated from my [pinboard](https://pinboard.in) account, you can see them all tagged as #[bon](https://pinboard.in/u:funkypenguin/t:bon/)
