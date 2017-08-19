@@ -5,7 +5,7 @@ date: 2016-07-11 07:53:33
 title: Separate production and dev
 excerpt: VMs are cheap. Outages are expensive.
 tags: linked, postportem
-crosspost_to_medium: true
+crosspost_to_medium: false
 ---
 
 In [Postmortem: Server compromised due to publicly accessible Redis — Kevin Chen](https://kevinchen.co/blog/postmortem-server-compromised/) I read the painful confession of a technically-savvy engineer whose server was compromised due to a lack of separation between production and dev environments:

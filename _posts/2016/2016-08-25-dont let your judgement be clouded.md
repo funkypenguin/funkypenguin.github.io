@@ -5,7 +5,7 @@ date: 2016-08-25 07:41:19
 title: "Don't let your judgement be clouded"
 excerpt: "Lessons learned from overreliance on cloud infrastructure"
 tags: cloud, testing
-crosspost_to_medium: true
+crosspost_to_medium: false
 ---
 
 In [Buildkite's Aug 22 outage post-mortem](https://building.buildkite.com/outage-post-mortem-for-august-23rd-82b619a3679b), I read the (refreshingly honest and transparent) story of a cascading set of failures with a __root cause of poor change-management__. An interesting takeaway from the story is that a large amount of the failures are unique to the "cloud" / IaaS platform design.

@@ -5,7 +5,7 @@ date: 2016-11-11 22:12:04
 title: "Putting in extra work is lazy and makes you less effective"
 excerpt: "Think you're extra-committed by working late to catch up? It's actually self-sabotage"
 tags: work-life
-crosspost_to_medium: true
+crosspost_to_medium: false
 ---
 
 In [Work/Life Balance Will Make You a Better Software Engineer · Code Without Rules](https://codewithoutrules.com/2016/11/10/work-life-balance-software-engineer/), I read:

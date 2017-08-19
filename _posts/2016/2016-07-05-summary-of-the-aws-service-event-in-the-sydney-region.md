@@ -4,7 +4,7 @@ date: 2016-07-05 17:58:19
 title: "Electricity is hard. Test failure rigorously"
 tags: postmortem
 category: postmortem
-crosspost_to_medium: true
+crosspost_to_medium: false
 ---
 In the [Summary of the AWS Service Event in the Sydney Region]( http://aws.amazon.com/message/4372T8), I read:
 

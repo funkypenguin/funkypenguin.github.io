@@ -5,7 +5,7 @@ date: 2016-08-19 12:40:50
 title: "Spacecraft and IT systems fail for the same reasons"
 excerpt: "Surprisingly common factors affect the failure of both"
 tags: failure, bias
-crosspost_to_medium: true
+crosspost_to_medium: false
 ---
 
 In [SOHO MISSION INTERRUPTION FAILURE INVESTIGATION](http://umbra.nascom.nasa.gov/soho/SOHO_final_report.html), I read the fascinating postmortem of the near-loss of the SOHO observatory due to what can only be described as basic operational process fails. (The craft was later [spectacularly recovered](http://soho.nascom.nasa.gov/about/Recovery/))

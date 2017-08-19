@@ -4,7 +4,7 @@ title: "Miniflux, lightweight self-hosted rss reader"
 date: "2017-08-19 14:28"
 category: review
 excerpt: "Tiny Tiny RSS vs Miniflux"
-crosspost_to_medium: true
+crosspost_to_medium: false
 tags: rss
 ---
 

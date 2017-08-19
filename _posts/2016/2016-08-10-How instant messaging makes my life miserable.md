@@ -5,7 +5,7 @@ date: 2016-08-10 21:00:24
 title: "How instant messaging makes my life miserable"
 excerpt: "The pros and cons of always-on instant messaging"
 tags: im, culture
-crosspost_to_medium: true
+crosspost_to_medium: false
 ---
 
 I recently read [Is group chat making you sweat? — Signal v Noise](https://m.signalvnoise.com/is-group-chat-making-you-sweat-744659addf7d#.ivqcxcx8a), and it resonated with me so much that I re-read it specifically so that I could post and comment on the relevant sections.

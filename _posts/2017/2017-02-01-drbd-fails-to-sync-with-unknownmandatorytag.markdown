@@ -4,7 +4,7 @@ title: "DRBD on RHEL/CentOS 6 fails to sync with UnknownMandatoryTag error"
 date: "2017-02-01 12:16:00Â"
 category: note
 excerpt: Because error messages just ruin the surprise!
-crosspost_to_medium: true
+crosspost_to_medium: false
 ---
 We use [DRBD](https://www.drbd.org/en/) as part of [Linux HA](http://linux-ha.org/wiki/Main_Page) designs. I was recently tasked with setting up DRBD 8.4 for a new customer installation. I chose a complicated, 64-character random string as my shared secret, and configured both nodes.
 

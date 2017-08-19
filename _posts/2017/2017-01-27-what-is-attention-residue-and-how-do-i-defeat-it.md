@@ -5,7 +5,7 @@ date: 31-01-2017 03:39:57
 title: Why you suffer from "attention residue"
 excerpt: "Do you find it hard to switch to a new task, leaving the previous task incomplete? There's a term for that, and it's got to do with how your brain works."
 tags: "interruption"
-crosspost_to_medium: true
+crosspost_to_medium: false
 ---
 
 >The act of being interrupted in one’s work is likely to hurt performance not only on the interrupted activity but also, as indicated by the present studies, on the subsequent work activity. This paper calls for understanding the consequences of interruptions and fragmented time beyond their effects on only the interrupted task.<cite>"[Why is it so hard to do my work?](http://www.sciencedirect.com/science/article/pii/S0749597809000399) , Sophie Leroy</cite>

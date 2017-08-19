@@ -4,7 +4,7 @@ title: "Humanitarian aid should be open sourced"
 excerpt: Free as in speech
 tags: opensource
 categories: opinion
-crosspost_to_medium: true
+crosspost_to_medium: false
 ---
 
 In ​["Beware the empathy-washing of self-proclaimed caring capitalists"](https://www.theguardian.com/commentisfree/2016/jul/02/beware-technology-giants-claiming-compassion-for-refugees-evgeny-morozov), Evgeny Morozov warns of the risks of trusting large (for-profit) tech giants for humanitarian relief. His concern centres around the conflict of interests between a for-profit corporation and its humanitarian efforts:

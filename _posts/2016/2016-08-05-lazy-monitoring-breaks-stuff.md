@@ -5,7 +5,7 @@ date: 2016-08-05 22:44:18
 title: "Lazy monitoring breaks stuff"
 excerpt: "Lack of planning in establishing monitoring can increase unreliability"
 tags: monitoring
-crosspost_to_medium: true
+crosspost_to_medium: false
 ---
 
 In [Outage Postmortem - July 20, 2016](http://stackstatus.net/post/147710624694/outage-postmortem-july-20-2016), we read about how a (technically complex) programming flaw brought down StackOverflow for 34 minutes.  

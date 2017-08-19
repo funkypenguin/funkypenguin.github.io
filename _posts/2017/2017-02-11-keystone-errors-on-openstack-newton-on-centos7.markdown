@@ -4,7 +4,7 @@ title: Errors when installing OpenStack Newton on CentOS7 with packstack
 date: '2017-02-11 19:50'
 category: note
 tags: 'openstack, centos7, rdo'
-crosspost_to_medium: true
+crosspost_to_medium: false
 ---
 
 While establishing a new OpenStack Newton installation on CentOS7 using [packstack](https://www.rdoproject.org/install/quickstart/), I encountered the following error after running ````packstack --allinone```` (_doing a multi-node install made no difference, though_)

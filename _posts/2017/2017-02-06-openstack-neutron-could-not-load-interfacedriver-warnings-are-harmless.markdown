@@ -5,7 +5,7 @@ date: "2017-02-06 21:03"
 tags: openstack
 categories: note
 excerpt: Unless they're a CRITICAL error, ignore the damn red herrings
-crosspost_to_medium: true
+crosspost_to_medium: false
 ---
 I've been working on an OpenStack lab, and one of the (_many_) issues I encountered was that my instances (_VMs_) wouldn't get their DHCP addresses from the neutron controller.
 

@@ -5,7 +5,7 @@ date: 2016-08-27 08:06:43
 title: Manual processes fail to scale.
 excerpt: Puny humans are puny.
 tags: human, scaling
-crosspost_to_medium: true
+crosspost_to_medium: false
 ---
 In [Linode Blog » The Twelve Days of Crisis – A Retrospective on Linode’s Holiday DDoS Attacks](https://blog.linode.com/2016/01/29/christmas-ddos-retrospective/), I read about the scale of a DDOS attack on Linnode infrastructure:
 
