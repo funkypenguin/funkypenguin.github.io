@@ -6,6 +6,9 @@ category: review
 excerpt: "Tiny Tiny RSS vs Miniflux"
 crosspost_to_medium: false
 tags: rss
+image:
+  feature: miniflux_header.png
+  path: /images/miniflux_header.png
 ---
 
 ## Guys, I broke up with my RSS reader...

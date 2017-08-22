@@ -5,6 +5,9 @@ date: "2017-08-07 16:21"
 category: note
 excerpt: Getting started with Grafana
 crosspost_to_medium: false
+image:
+  feature: grafana_header.png
+  path: /images/grafana.png
 ---
 
 A friend asked for help getting his "IOT" sensor data into Grafana for visualization, so I wrote up this minimal, bare-bones process, which is **applicable to CentOS6/7**...
