@@ -3,11 +3,14 @@
 - title: About
   url: /
 
-#- title: Geek Cookbook
-#  url: /recipies/
-#
+- title: Cookbook
+  url: https://geek-cookbook.funkypenguin.co.nz
+
 - title: Blog
   url: /blog/
+
+- title: Kitchen
+  url: https://discourse.geek-kitchen.funkypenguin.co.nz
 
 - title: Contact
   url: /contact/
