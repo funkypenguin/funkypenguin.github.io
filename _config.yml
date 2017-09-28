@@ -50,6 +50,8 @@ kramdown:
 
 mathjax: true
 
+discourse_url: "https://discourse.geek-kitchen.funkypenguin.co.nz"
+
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", ".less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
 
@@ -59,7 +61,7 @@ owner:
   name: David Young
   avatar: bio-photo.jpg
   email: davidy@funkypenguin.co.nz
-  disqus-shortname: funkypenguinnz
+  disqus-shortname:
   twitter: funkypenguin
   facebook: #username
   github: funkypenguin
