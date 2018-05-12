@@ -5,7 +5,6 @@ date: 2018-05-11 17:15:42
 title: "Post-mortem review : DayOne sync outage and private data exposure"
 excerpt: "Lessons from a series of predictable, avoidable failures"
 tags: post-mortem
-link: http://help.dayoneapp.com/day-one-sync/may-2018-day-one-outage-postmortem
 ---
 I’m a long-term user of [Day One](http://DayOne app.com), the premier journaling app for  iOS/MacOS. In 2017, Day One introduced end-to-end encryption on user journals (*which I use*), to protect the journal data synced with their proprietary service (*that became mandatory after Dropbox sync was dropped in v2*)
 
@@ -17,11 +16,11 @@ I read post-mortems as an exercise to improve my own post-mortem skills (_I’ve
 
 > The rebalancing operation failed. This began our initial sync outage. In the interest of restoring sync service quickly, we decided to build a new database cluster and restore it from a recent backup. A new cluster was provisioned and restored from the backup.
 
-​A decision made **during** an outage is unlikely to be as careful or considered as a pre-plan made beforehand, when seas are calm. In this case, the "shortcut" taken to address the rebalancing failure created a far-worse fault (the unintended sharing of personal journal data)
+​A decision made **during** an outage is unlikely to be as careful or considered as a pre-plan made beforehand, when seas are calm. In this case, the "shortcut" taken to address the rebalancing failure created a far-worse fault (*the unintended sharing of personal journal data*)
 
 > On the morning of Wednesday, May 9, we determined the root cause of the issue. The backup we had used in the restore was incomplete—it contained all the journal data, but was missing some user accounts. Specifically, it was missing all accounts created after March 22. One result of this missing data was that accounts created after that date were unable to log in. Another result was a limited amount of unintentional data sharing.
 
-I think this is a bigger issue which needs to be understood. How can you be confident that the backup you restored contains all the data, if you can’t explain why the user accounts are missing? Why didn’t backup/restore tests identify the loss (e.g. comparing a total of users accounts and journal entries from the restored backup with the production database)
+I think this is a bigger issue which needs to be understood. How can you be confident that the backup you restored contains all the data, if you can’t explain why the user accounts are missing? Why didn’t backup/restore tests identify the loss (*e.g. comparing a total of users accounts and journal entries from the restored backup with the production database*)
 
 > We discovered a few configuration errors that were causing constantly-increasing load on the database over the course of the rebalance, which was causing it to eventually fail.
 
@@ -44,7 +43,7 @@ Both of these seem like a bit of a after-the-fact workaround. Isn’t there a mo
 
 The root cause of the incident, in my opinion, is a lack of:
 1. A testing environment simulating production (*all of this should have been tested in dev/preprod*)
-2. A Test regime for predictable failures (*hardware issues*)
+2. A test regime for predictable failures (*hardware issues*)
 3. Rigorous backup/restore testing processes (*an untested backup is a failed backup*)
 
 ## Notes
