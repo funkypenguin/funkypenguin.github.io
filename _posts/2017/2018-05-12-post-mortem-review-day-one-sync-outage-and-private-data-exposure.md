@@ -1,7 +1,7 @@
 ---
 layout: post
 category: opinion
-date: 2018-05-12 17:15:42
+date: 2018-05-11 17:15:42
 title: "Post-mortem review : DayOne sync outage and private data exposure"
 excerpt: "Lessons from a series of predictable, avoidable failures"
 tags: post-mortem
