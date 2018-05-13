@@ -1,0 +1,24 @@
+---
+title: "Bookmarks of note / May 13, 2018"
+layout: post
+categories:
+- bookmarks
+comments: false
+tags: bookmarks-of-note
+---
+* [How to make a blockbuster movie trailer](http://kottke.org/17/08/how-to-make-a-blockbuster-movie-trailer)
+&#8594; 
+
+* [Re: That report you wanted :)](https://thehustle.co/emojis-in-email-are-unprofessional)
+&#8594; Nice to know it's not just me who finds emoji to be largely infantile and useless!
+
+* [Surviving a Ceph cluster outage: the hard way |](https://blog.noc.grnet.gr/2016/10/18/surviving-a-ceph-cluster-outage-the-hard-way/)
+&#8594; A thrilling blow-by-blow account of a complex Ceph failure and (ultimately) total recovery.
+
+* [How to Remember What You Read](https://www.farnamstreetblog.com/2017/10/how-to-remember-what-you-read/)
+&#8594; 
+
+* [kubernetes/minikube: Run Kubernetes locally](https://github.com/kubernetes/minikube#quickstart)
+&#8594; 
+
+Bookmarks are automatically generated from my [pinboard](https://pinboard.in) account, you can see them all tagged as #[bon](https://pinboard.in/u:funkypenguin/t:bon/)
