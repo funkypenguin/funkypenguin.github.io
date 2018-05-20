@@ -1,12 +1,10 @@
+# This file exists for local dev, where I want to force the URL, and
+# Disable the crosspost-to-medium plugin (by redefining the active plugins)
 url: http://localhost:4000
-comments: false
-
 plugins:
+  - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
   - jekyll-paginate
   - jemoji
-  - jekyll-seo-tag
   - jekyll-redirect-from
-  - jekyll-mentions

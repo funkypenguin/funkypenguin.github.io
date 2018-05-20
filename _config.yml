@@ -1,99 +1,149 @@
-# Site wide configuration
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-title: Funky Penguin
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+theme: jekyll-theme-so-simple
+# remote_theme: mmistakes/so-simple-themetitle: Funky Penguin
 locale: en_US
+title: Funky Penguin
 description: Upgrading the world through the skilled application of technology
-logo: site-logo.png
+logo: /images/site-logo.png
 search: true
 url: https://www.funkypenguin.co.nz
+date_format: "%B %-d, %Y"
+read_time: true
+words_per_minute: 200
+mathjax: true
+google_fonts:
+  - name: "Source Sans Pro"
+    weights: "400,400i,700,700i"
+  - name: "Lora"
+    weights: "400,400i,700,700i"
+google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
+disqus:
+  shortname: # Disqus shortname, e.g. "my_disqus_shortname"
+twitter:
+  username: mmistakes # site's Twitter username
 
-# No reason not to publish future-dated posts.
-future: true
+# Add discourse comments
+discourse_url: "https://discourse.geek-kitchen.funkypenguin.co.nz"
 
-# Jekyll configuration
+# Liquid
+liquid:
+  error_mode: strict
 
-permalink:   /:categories/:title/
-markdown:    kramdown
-highlighter: rouge
-sass:
-  sass_dir: _sass
-  style: compressed
+# Build settings
+markdown: kramdown
+feed:
+  path: atom.xml
+
+# Pagination - https://jekyllrb.com/docs/pagination/
+paginate: 10
+paginate_path: /page:num/
+
+# Search
+search_full_content: false
+
+# Taxonomy pages
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
 
 plugins:
+  - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
   - jekyll-paginate
   - jemoji
-  - jekyll-seo-tag
   - jekyll-redirect-from
-  - jekyll-mentions
   - jekyll-crosspost-to-medium
 
-paginate: 7
-paginate_path: "/blog/page:num/"
-
-# Add me some recipies
+# Collections
 collections:
-  recipies:
+  recipes:
     output: true
     permalink: /:collection/:path/
-    title: FAQs
 
-kramdown:
-  input: GFM
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..2
-  enable_coderay: false
-
-mathjax: true
-
-discourse_url: "https://discourse.geek-kitchen.funkypenguin.co.nz"
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", ".less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
-
+# Front Matter Defaults
+defaults:
+  # Post defaults
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      comments: true
+      share: true
+  # Recipe defaults
+  - scope:
+      path: "_recipes"
+      type: recipes
+    values:
+      layout: post
+      comments: true
+      share: true
 
 # Site owner
-owner:
+author:
   name: David Young
-  avatar: bio-photo.jpg
+  picture: /images/bio-photo.jpg
   email: davidy@funkypenguin.co.nz
-  disqus-shortname:
   twitter: funkypenguin
-  facebook: #username
-  github: funkypenguin
-  stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: funkypenguin
-  mastodon: https://mastodon.funkypenguin.co.nz
-  instagram: #username
-  flickr: #username
-  tumblr: #username
-  pinterest: #username
-  weibo: #userid
-  google:
-    plus: #username
-    analytics: UA-139253-8
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
+  links:
+    - title: Twitter
+      url: https://twitter.com/funkypenguin
+      icon: fab fa-twitter-square
+    - title: GitHub
+      url: https://github.com/funkypenguin
+      icon: fab fa-github-square
+    - title: Stackoverflow
+      url: https://stackoverflow.com/users/story/8416693
+      icon: fab fa-stack-overflow
+    - title: Linkedin
+      url: https://www.linkedin.com/funkypenguin
+      icon: fab fa-linkedin
 
-# Yes, I want social sharing on every page:
-share: true
+google_analytics: UA-139253-8
 
-# Required for the jekyll-seo-tag gem
-# Social Sharing
-twitter:
-  username               : funkypenguin
-og_image                 : # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  links: # An array of links to social media profiles
-    - https://twitter.com/funkypenguin
-    - https://github.com/funkypenguin
-    - https://keybase.io/funkypenguin
-    - https://plus.google.com/u/0/+DavidYoungFunkyPenguin
+
+# Footer Links
+footer_links:
+    - title: Twitter
+      url: https://twitter.com/funkypenguin
+      icon: fab fa-twitter-square
+    - title: GitHub
+      url: https://github.com/funkypenguin
+      icon: fab fa-github-square
+    - title: Stackoverflow
+      url: https://stackoverflow.com/users/story/8416693
+      icon: fab fa-stack-overflow
+    - title: Linkedin
+      url: https://www.linkedin.com/funkypenguin
+      icon: fab fa-linkedin
+    - title: Feed
+      url: atom.xml
+      icon: fas fa-rss-square
+
+copyright: "Copyright &copy; 2018 Funky Penguin. Site logo penguin icon made by [Freepik](http://www.freepik.com) from [Flaticon](http://www.flaticon.com) is licensed by [Creative Commons BY 3.0](http://creativecommons.org/licenses/by/3.0/). Made with the [Jekyll](https://jekyllrb.com]) [So Simple](https://github.com/mmistakes/so-simple-theme) theme."

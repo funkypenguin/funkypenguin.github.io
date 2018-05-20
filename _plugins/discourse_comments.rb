@@ -18,7 +18,7 @@ module Jekyll
     end
 
     def process_posts
-      @site.posts.each do |post|
+      @site.posts.docs.each do |post|
         post.content += snippet(post.url)
       end
     end

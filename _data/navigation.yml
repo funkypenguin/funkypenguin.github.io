@@ -1,22 +1,22 @@
 # Site navigation links
 
-- title: About
+- title: Home
   url: /
 
-- title: Cookbook
-  url: https://geek-cookbook.funkypenguin.co.nz
-
-- title: Blog
-  url: /blog/
-
-- title: Resume
-  url: https://resume.funkypenguin.co.nz
-
-- title: Kitchen
-  url: https://discourse.geek-kitchen.funkypenguin.co.nz
+- title: Archive
+  url: /archive/
 
 - title: Contact
   url: /contact/
 
 - title: Search
   url: /search/
+
+- title: Cookbook
+  url: https://geek-cookbook.funkypenguin.co.nz
+
+- title: Resume
+  url: https://resume.funkypenguin.co.nz
+
+- title: Kitchen
+  url: https://discourse.geek-kitchen.funkypenguin.co.nz
