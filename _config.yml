@@ -49,7 +49,7 @@ liquid:
 # Build settings
 markdown: kramdown
 feed:
-  path: atom.xml
+  path: feed.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 10
