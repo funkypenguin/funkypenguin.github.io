@@ -1,162 +1,162 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+  # Welcome to Jekyll!
+  #
+  # This config file is meant for settings that affect your whole blog, values
+  # which you are expected to set up once and rarely edit after that. If you find
+  # yourself editing this file very often, consider using Jekyll's data files
+  # feature for the data you need to update frequently.
+  #
+  # For technical reasons, this file is *NOT* reloaded automatically when you use
+  # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-theme: jekyll-theme-so-simple
-# remote_theme: mmistakes/so-simple-themetitle: Funky Penguin
-locale: en_US
-title: Funky Penguin
-description: Upgrading the world through the skilled application of technology
-logo: /images/site-logo.png
-search: true
-url: https://www.funkypenguin.co.nz
-date_format: "%B %-d, %Y"
-read_time: true
-words_per_minute: 200
-mathjax: true
-google_fonts:
-  - name: "Source Sans Pro"
-    weights: "400,400i,700,700i"
-  - name: "Lora"
-    weights: "400,400i,700,700i"
-google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
-disqus:
-  shortname: # Disqus shortname, e.g. "my_disqus_shortname"
-twitter:
-  username: funkypenguin # site's Twitter username
+  # Site settings
+  # These are used to personalize your new site. If you look in the HTML files,
+  # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+  # You can create any custom variable you would like, and they will be accessible
+  # in the templates via {{ site.myvariable }}.
+  theme: jekyll-theme-so-simple
+  # remote_theme: mmistakes/so-simple-themetitle: Funky Penguin
+  locale: en_US
+  title: Funky Penguin
+  description: Upgrading the world through the skilled application of technology
+  logo: /images/site-logo.png
+  search: true
+  url: https://www.funkypenguin.co.nz
+  date_format: "%B %-d, %Y"
+  read_time: true
+  words_per_minute: 200
+  mathjax: true
+  google_fonts:
+    - name: "Source Sans Pro"
+      weights: "400,400i,700,700i"
+    - name: "Lora"
+      weights: "400,400i,700,700i"
+  google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
+  disqus:
+    shortname: # Disqus shortname, e.g. "my_disqus_shortname"
+  twitter:
+    username: funkypenguin # site's Twitter username
 
-# No need for dates in permalinks
-permalink:   /:categories/:title/
+  # No need for dates in permalinks
+  permalink:   /:categories/:title/
 
-# Add discourse comments
-discourse_url: "https://discourse.geek-kitchen.funkypenguin.co.nz"
+  # Add discourse comments
+  discourse_url: "https://discourse.geek-kitchen.funkypenguin.co.nz"
 
-# Liquid
-liquid:
-  error_mode: strict
+  # Liquid
+  liquid:
+    error_mode: strict
 
-# Build settings
-markdown: kramdown
-feed:
-  path: feed.xml
+  # Build settings
+  markdown: kramdown
+  feed:
+    path: atom.xml
 
-# Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 10
-paginate_path: /page:num/
+  # Pagination - https://jekyllrb.com/docs/pagination/
+  paginate: 10
+  paginate_path: /page:num/
 
-# Search
-search_full_content: false
+  # Search
+  search_full_content: false
 
-# Taxonomy pages
-category_archive_path: "/categories/#"
-tag_archive_path: "/tags/#"
+  # Taxonomy pages
+  category_archive_path: "/categories/#"
+  tag_archive_path: "/tags/#"
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  # Exclude from processing.
+  # The following items will not be processed, by default. Create a custom list
+  # to override the default setting.
+  # exclude:
+  #   - Gemfile
+  #   - Gemfile.lock
+  #   - node_modules
+  #   - vendor/bundle/
+  #   - vendor/cache/
+  #   - vendor/gems/
+  #   - vendor/ruby/
 
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-paginate
-  - jemoji
-  - jekyll-redirect-from
-  - jekyll-crosspost-to-medium
+  plugins:
+    - jekyll-seo-tag
+    - jekyll-sitemap
+    - jekyll-feed
+    - jekyll-paginate
+    - jemoji
+    - jekyll-redirect-from
+    - jekyll-crosspost-to-medium
 
-# Details on these options at https://github.com/aarongustafson/jekyll-crosspost-to-medium
-jekyll-crosspost_to_medium:
-  enabled: true
-  cache: .jekyll-crosspost_to_medium
-  status: public
-  license: all-rights-reserved
-  backdate: true
+  # Details on these options at https://github.com/aarongustafson/jekyll-crosspost-to-medium
+  jekyll-crosspost_to_medium:
+    enabled: true
+    cache: .jekyll-crosspost_to_medium
+    status: public
+    license: all-rights-reserved
+    backdate: true
 
-# Not currently using this
-# Collections
-#collections:
-#  recipes:
-#    output: true
-#    permalink: /:collection/:path/
+  # Not currently using this
+  # Collections
+  #collections:
+  #  recipes:
+  #    output: true
+  #    permalink: /:collection/:path/
 
-# Front Matter Defaults
-defaults:
-  # Post defaults
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: post
-      comments: true
-      share: true
-      crosspost_to_medium: true
-  # Recipe defaults
-  - scope:
-      path: "_recipes"
-      type: recipes
-    values:
-      layout: post
-      comments: true
-      share: true
+  # Front Matter Defaults
+  defaults:
+    # Post defaults
+    - scope:
+        path: "_posts"
+        type: posts
+      values:
+        layout: post
+        comments: true
+        share: true
+        crosspost_to_medium: true
+    # Recipe defaults
+    - scope:
+        path: "_recipes"
+        type: recipes
+      values:
+        layout: post
+        comments: true
+        share: true
 
-# Site owner
-author:
-  name: David Young
-  picture: /images/bio-photo.jpg
-  email: davidy@funkypenguin.co.nz
-  twitter: funkypenguin
-  links:
-    - title: Twitter
-      url: https://twitter.com/funkypenguin
-      icon: fab fa-twitter-square
-    - title: GitHub
-      url: https://github.com/funkypenguin
-      icon: fab fa-github-square
-    - title: Stackoverflow
-      url: https://stackoverflow.com/users/story/8416693
-      icon: fab fa-stack-overflow
-    - title: Linkedin
-      url: https://www.linkedin.com/funkypenguin
-      icon: fab fa-linkedin
+  # Site owner
+  author:
+    name: David Young
+    picture: /images/bio-photo.jpg
+    email: davidy@funkypenguin.co.nz
+    twitter: funkypenguin
+    links:
+      - title: Twitter
+        url: https://twitter.com/funkypenguin
+        icon: fab fa-twitter-square
+      - title: GitHub
+        url: https://github.com/funkypenguin
+        icon: fab fa-github-square
+      - title: Stackoverflow
+        url: https://stackoverflow.com/users/story/8416693
+        icon: fab fa-stack-overflow
+      - title: Linkedin
+        url: https://www.linkedin.com/funkypenguin
+        icon: fab fa-linkedin
 
-google_analytics: UA-139253-8
+  google_analytics: UA-139253-8
 
 
-# Footer Links
-footer_links:
-    - title: Twitter
-      url: https://twitter.com/funkypenguin
-      icon: fab fa-twitter-square
-    - title: GitHub
-      url: https://github.com/funkypenguin
-      icon: fab fa-github-square
-    - title: Stackoverflow
-      url: https://stackoverflow.com/users/story/8416693
-      icon: fab fa-stack-overflow
-    - title: Linkedin
-      url: https://www.linkedin.com/funkypenguin
-      icon: fab fa-linkedin
-    - title: Feed
-      url: atom.xml
-      icon: fas fa-rss-square
+  # Footer Links
+  footer_links:
+      - title: Twitter
+        url: https://twitter.com/funkypenguin
+        icon: fab fa-twitter-square
+      - title: GitHub
+        url: https://github.com/funkypenguin
+        icon: fab fa-github-square
+      - title: Stackoverflow
+        url: https://stackoverflow.com/users/story/8416693
+        icon: fab fa-stack-overflow
+      - title: Linkedin
+        url: https://www.linkedin.com/funkypenguin
+        icon: fab fa-linkedin
+      - title: Feed
+        url: atom.xml
+        icon: fas fa-rss-square
 
-copyright: "Copyright &copy; 2018 Funky Penguin. Site logo penguin icon made by [Freepik](http://www.freepik.com) from [Flaticon](http://www.flaticon.com) is licensed by [Creative Commons BY 3.0](http://creativecommons.org/licenses/by/3.0/). Made with the [Jekyll](https://jekyllrb.com]) [So Simple](https://github.com/mmistakes/so-simple-theme) theme."
+  copyright: "Copyright &copy; 2018 Funky Penguin. Site logo penguin icon made by [Freepik](http://www.freepik.com) from [Flaticon](http://www.flaticon.com) is licensed by [Creative Commons BY 3.0](http://creativecommons.org/licenses/by/3.0/). Made with the [Jekyll](https://jekyllrb.com]) [So Simple](https://github.com/mmistakes/so-simple-theme) theme."
