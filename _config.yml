@@ -83,11 +83,20 @@ plugins:
   - jekyll-redirect-from
   - jekyll-crosspost-to-medium
 
+# Details on these options at https://github.com/aarongustafson/jekyll-crosspost-to-medium
+jekyll-crosspost_to_medium:
+  enabled: true
+  cache: .jekyll-crosspost_to_medium
+  status: public
+  license: all-rights-reserved
+  backdate: true
+
+# Not currently using this
 # Collections
-collections:
-  recipes:
-    output: true
-    permalink: /:collection/:path/
+#collections:
+#  recipes:
+#    output: true
+#    permalink: /:collection/:path/
 
 # Front Matter Defaults
 defaults:

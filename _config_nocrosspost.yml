@@ -1,0 +1,8 @@
+# Disable the crosspost-to-medium plugin (by redefining the active plugins)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+  - jemoji
+  - jekyll-redirect-from
