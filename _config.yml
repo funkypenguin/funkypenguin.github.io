@@ -108,6 +108,7 @@ defaults:
       layout: post
       comments: true
       share: true
+      crosspost_to_medium: true
   # Recipe defaults
   - scope:
       path: "_recipes"
