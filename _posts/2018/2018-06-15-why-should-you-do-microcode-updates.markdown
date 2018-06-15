@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "Should you do microcode updates?"
-date: "2018-06-15 21:25"
+date: "2018-06-15 09:25"
 category: opinion
 tags: security
 ---
