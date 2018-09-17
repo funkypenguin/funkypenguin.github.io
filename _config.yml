@@ -16,6 +16,7 @@
   theme: jekyll-theme-so-simple
   # remote_theme: mmistakes/so-simple-themetitle: Funky Penguin
   locale: en_US
+  timezone: Pacific/Auckland
   title: Funky Penguin
   description: Upgrading the world through the skilled application of technology
   logo: /images/site-logo.png
