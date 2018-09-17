@@ -1,0 +1,25 @@
+---
+title: "Bookmarks of note / July 23, 2018"
+layout: post
+categories:
+- bookmarks
+comments: false
+crosspost_to_medium: false
+tags: bookmarks-of-note
+---
+* [How do I figure out my Google OpenID URL?](https://webapps.stackexchange.com/questions/18899/how-do-i-figure-out-my-google-openid-url)
+&#8594; Useful if you have an old app (hello, crofflr) which still has your account tied to your Google account via OpenID
+
+* [Can “effective altruism” maximise the bang for each charitable buck?](https://www.economist.com/international/2018/06/02/can-effective-altruism-maximise-the-bang-for-each-charitable-buck)
+&#8594; I’m a firm proponent of maximizing the effectiveness of charitable work
+
+* [Double Loop Learning: Download New Skills and Information into Your Brain](https://fs.blog/2018/06/double-loop-learning/)
+&#8594; On how to learn effectively - “Even smart, well-educated people can struggle to learn from experience. We all know someone who’s been at the office for 20 years and claims to have 20 years of experience, but they really have one year repeated 20 times.”
+
+* [Ceph 12.2.6 is a broken release with serious known regressions](http://lists.ceph.com/pipermail/ceph-users-ceph.com/2018-July/028153.html)
+&#8594; Sadly, I discovered this after the damage was done, and my Ceph cluster rebuilt from scratch, and restored from backup. <blockquote>v12.2.6 included an incomplete backport of an optimization for BlueStore OSDs that avoids maintaining both the per-object checksum and the internal BlueStore checksum.  Due to the accidental omission of a critical follow-on patch, v12.2.6 corrupts (fails to update) the stored per-object checksum value for some objects.  This can result in an EIO error when trying t...
+
+* [Dumpcap batch file front-end with event notification and triggered capturing](https://www.wireshark.org/lists/wireshark-users/201405/msg00030.html)
+&#8594; A comprehensive bash script to automate packet captures using dumpcap.exe (a component of Wireshark) on Windows platforms. I used this today to generate hourly-rotated (ringbuffer) captures on multiple hosts, all dumped to a CIFS share based on hostname, simply by running a common shortcut from an admin session.
+
+Bookmarks are automatically generated from my [pinboard](https://pinboard.in) account, you can see them all tagged as #[bon](https://pinboard.in/u:funkypenguin/t:bon/)
