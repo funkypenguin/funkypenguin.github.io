@@ -1,0 +1,25 @@
+---
+title: "Bookmarks of note / August 16, 2018"
+layout: post
+categories:
+- bookmarks
+comments: false
+crosspost_to_medium: false
+tags: bookmarks-of-note
+---
+* [Automatically install build dependencies prior to building an RPM package](https://stackoverflow.com/questions/13227162/automatically-install-build-dependencies-prior-to-building-an-rpm-package)
+&#8594; A handy tip re quickly installing all the dependencies for a .SPEC file
+
+* [Setting MTU of docker_gwbridge in swarm mode](https://forums.docker.com/t/setting-container-mtu-in-swarm-mode/44976)
+&#8594; Helpful tip re globally changing MTU on docker_gwbridge - useful if you're running your swarm on OpenStack with VXLAN, since your default MTU is 1450, but Docker sets docker_gwbridge MTU to 1500, so stuff breaks ;)
+
+* [How to apply unmerged upstream pull requests from other forks into my fork?](https://stackoverflow.com/questions/6022302/how-to-apply-unmerged-upstream-pull-requests-from-other-forks-into-my-fork)
+&#8594; A useful tip re merging upstream outstanding PRs into your own fork
+
+* [Solved - milter-greylist dies when IPv6 sendmail connection](https://forums.freebsd.org/threads/milter-greylist-dies-when-ipv6-sendmail-connection.60468/)
+&#8594; Does your milter-greylist crash with "cmd read returned 0, expecting 5"? Do you have IPv6 and GeoIP enabled? You need a geoipv6db directive in your config file! :)
+
+* [kholia/OSX-KVM](https://github.com/kholia/OSX-KVM)
+&#8594; Run El Capitan, macOS Sierra, High Sierra and Mojave on QEMU/KVM. No support is provided at the moment.
+
+Bookmarks are automatically generated from my [pinboard](https://pinboard.in) account, you can see them all tagged as #[bon](https://pinboard.in/u:funkypenguin/t:bon/)
