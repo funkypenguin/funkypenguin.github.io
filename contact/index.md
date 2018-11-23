@@ -10,9 +10,9 @@ tawkto: true
 Contact me by:
 
 * Email ([davidy@funkypenguin.co.nz](mailto:davidy@funkypenguin.co.nz))
+* Private, encrypted email ([funkypenguin@pm.me](mailto:funkypenguin@pm.me))
 * Twitter ([@funkypenguin](https://twitter.com/funkypenguin))
-* Mastodon ([@davidy@funkypenguin.co.nz](https://mastodon.funkypenguin.co.nz/@davidy))
-
+* KeyBase ([funkypenguin](https://keybase.io/funkypenguin))
 
 Or by using the form below:
 
