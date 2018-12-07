@@ -6,7 +6,7 @@ tags:
   - kubernetes
   - gke
 ---
-While attempting to deploy an [awesome set-it-and-forget-it volume snapshot solution](https://github.com/miracle2k/k8s-snapshots) for my GKE cryptocurrency mining pool empire, I stumbled across the following error when trying to create the necessary RBAC ClusterRoleBinding:
+While attempting to deploy an [awesome set-it-and-forget-it volume snapshot solution](https://github.com/miracle2k/k8s-snapshots) for my GKE [cryptocurrency](https://mtip.heigh-ho.funkypenguin.co.nz/) [mining](https://trtl.heigh-ho.funkypenguin.co.nz/) [pool](https://msr.heigh-ho.funkypenguin.co.nz/) [empire](https://xmr.heigh-ho.funkypenguin.co.nz/), I stumbled across the following error when trying to create the necessary RBAC ClusterRoleBinding:
 
 ```
 $ kubectl apply -f rbac.yaml
