@@ -4,7 +4,10 @@ category: postmortem
 date: 2016-08-19 12:40:50
 title: "Spacecraft and IT systems fail for the same reasons"
 excerpt: "Surprisingly common factors affect the failure of both"
-tags: failure, bias
+tags: 
+  - failure
+  - bias
+  - postmortem
 crosspost_to_medium: false
 ---
 
