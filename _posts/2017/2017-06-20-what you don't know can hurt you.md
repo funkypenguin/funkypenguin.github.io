@@ -4,7 +4,9 @@ category: link
 date: 2017-06-20 21:39:25
 title: "Implicit 2TB limit breaks Instapaper for 31 hours"
 excerpt: "What you don't know can hurt you"
-tags: failure, aws
+tags: 
+  - failure
+  - aws
 link: https://medium.com/making-instapaper/instapaper-outage-cause-recovery-3c32a7e9cc5f
 ---
 

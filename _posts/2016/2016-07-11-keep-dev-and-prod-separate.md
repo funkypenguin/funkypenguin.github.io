@@ -4,7 +4,9 @@ category: postmortem
 date: 2016-07-11 07:53:33
 title: Separate production and dev
 excerpt: VMs are cheap. Outages are expensive.
-tags: linked, postportem
+tags: 
+  - linked
+  - postmortem
 crosspost_to_medium: false
 ---
 
