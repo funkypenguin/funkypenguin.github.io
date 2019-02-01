@@ -2,7 +2,7 @@
 layout: post
 category: opinion
 date: 2019-01-28 22:58:27
-title: "why i chose kubernetes over docker swarm"
+title: "Why I chose Kubernetes over Docker Swarm"
 teaser: "On choosing the best tool for the job"
 tags: kubernetes
 ---
@@ -21,4 +21,4 @@ In [Funky Penguin's Geek Cookbook - Kubernetes Start](https://geek-cookbook.funk
 > 
 > Kubernetes (on a cloud provider, mind you!) does this for me. I feed Kubernetes a series of YAML files, and it takes care of all the rest, including version upgrades, node failures/replacements, disk attach/detachments, etc.
 
-Read the whole post (_plus the children’s video!_) at Funky Penguin's Geek Cookbook - Kubernetes Start](https://geek-cookbook.funkypenguin.co.nz/)
+Read the whole post (_plus the children’s video!_) at [Funky Penguin's Geek Cookbook - Kubernetes Start](https://geek-cookbook.funkypenguin.co.nz/)
