@@ -2,7 +2,7 @@
 layout: "post"
 title: "A simple, free, load balancer for your Kubernetes Cluster"
 date: "2019-02-06 20:47"
-excerpt: "Work around expensive cloud provide load balancer options with a simple, haproxy/webhook-based solution"
+excerpt: "Work around expensive cloud provider load balancer options with a simple, haproxy/webhook-based solution"
 tags:
   - kubernetes
 category:
