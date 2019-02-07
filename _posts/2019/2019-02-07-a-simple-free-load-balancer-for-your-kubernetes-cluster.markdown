@@ -12,6 +12,8 @@ This is an excerpt from a recent addition to the [Geek's Cookbook](https://geek-
 
 For implementation details, see [this loadbalancer recipe](https://geek-cookbook.funkypenguin.co.nz/kubernetes/loadbalancer/).
 
+---
+
 Because we're Cloud-Native now, it's complex to get traffic **into** our cluster from outside. We basically have 3 options:
 
 1. **HostIP**: Map a port on the host to a service. This is analogous to Docker's port exposure, but lacking in that it restricts us to one host port per-container, and it's not possible to anticipate _which_ of your Kubernetes hosts is running a given container. Kubernetes does not have Docker Swarm's "routing mesh", allowing for simple load-balancing of incoming connections.
