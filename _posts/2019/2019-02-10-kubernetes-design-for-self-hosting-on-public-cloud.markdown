@@ -20,4 +20,4 @@ The entire design, from [why I like Kubernetes](https://geek-cookbook.funkypengu
 
 Here's highly technical and accurate diagram:
 
-![](https://dgeek-cookbook.funkypenguin.co.nz/images/kubernetes-cluster-design.png)
+![](https://geek-cookbook.funkypenguin.co.nz/images/kubernetes-cluster-design.png)
