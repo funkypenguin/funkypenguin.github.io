@@ -14,6 +14,7 @@ Contact me by:
 * Private, encrypted email with ProtonMail ([funkypenguin@pm.me](mailto:funkypenguin@pm.me))
 * Twitter ([@funkypenguin](https://twitter.com/funkypenguin))
 * KeyBase ([@funkypenguin](https://keybase.io/funkypenguin))
+* Telegram ([@funkypenguin](https://t.me/funkypenguin))
 
 Or by using the form below:
 
