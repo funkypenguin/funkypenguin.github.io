@@ -8,7 +8,7 @@ tags:
   - edgerouter
 category:
   - note
-excerpt: "Something something blah blah blah"
+excerpt: "Create a free/cheap basic site-to-site VPN between your AWS VPC and your on-premises network using OpenVPN"
 ---
 I've been trying to upskill myself on AWS, in anticipation of taking on a "_Cloud Architect_" role with my new employer.
 
