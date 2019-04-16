@@ -15,4 +15,4 @@ Anyway, someone geekier than me has documented the process really well - I’m j
 Quoted from [A Ulysses, Shortcuts, and Working Copy Workflow for Capturing Ideas and Publishing to a Jekyll-Based Blog – The Sweet Setup](https://thesweetsetup.com/a-ulysses-shortcuts-and-working-copy-workflow-for-capturing-ideas-and-publishing-to-a-jekyll-based-blog/):
 > So, here’s my workflow for capturing ideas, building out those ideas, and publishing to a Jekyll-based blog. Fortunately for everyone, Josiah has added in the technical details for the publishing shortcut, so I’ll step out of the way for him to get geeky for a bit.
 
-Edit: Updated via Ulysses, just to prove I can
+Edit: Updated via Ulysses, just to prove I can. Twice.
