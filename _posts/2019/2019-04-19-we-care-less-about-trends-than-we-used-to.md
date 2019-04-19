@@ -4,7 +4,7 @@ title: "We care less about trends than we used to"
 excerpt: "Study shows that global attention span to global trends has ... globally decreased"
 category: "link"
 image:
-  path: "https://www.dropbox.com/s/qklnesejer2uop5/IMG\_0387.jpeg?dl=1"
+  path: "https://www.dropbox.com/s/qklnesejer2uop5/IMG\_0387.jpeg?raw=1"
   thumbnail:
   caption:
 tags: 
