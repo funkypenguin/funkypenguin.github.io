@@ -1,7 +1,7 @@
 ---
-date: 2019/21-04-2019
+date: 21-04-2019
 title: "Upping your 2FA SSH game"
-excerpt: "Think you’ve setup SSH securely? Think again (I did)"
+excerpt: "Think you setup SSH securely enough? Think again (I did!)"
 category: "opinion"
 image:
   path: "https://www.dropbox.com/s/qrvkfk5f97d1gxu/IMG_0442.jpeg?raw=1"
