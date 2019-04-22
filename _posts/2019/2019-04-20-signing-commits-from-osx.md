@@ -9,7 +9,7 @@ tags:
   - gpg
 image:
   path: "/images/verified-commit.png"
-  thumbnail: "/images/verified-commit-thumbnail.png"
+  thumbnail: "/images/verified-commit.png"
   caption: "Verified my commit like a boss!"
 ---
 When cleaning up issues/PRs in [Funky Penguin's Geek's Cookbook repository](https://github.com/funkypenguin/geek-cookbook) today, I noticed that [PRs committed from the GitHub website included verified commits](https://github.com/funkypenguin/geek-cookbook/pull/46/commits), but my own commits (from my latop) were not verified.
