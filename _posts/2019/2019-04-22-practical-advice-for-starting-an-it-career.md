@@ -1,5 +1,5 @@
 ---
-date: 22-04-2019
+date: 2019-04-22
 title: "Practical advice for starting an IT career"
 excerpt: "Useful tips for anyone starting / moving into an IT career track"
 category: "link"
